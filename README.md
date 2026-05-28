@@ -33,8 +33,7 @@
 | Inspection | Shape, dtypes, null counts, duplicates |
 | Duplicates | Drop exact duplicate rows |
 | Text cleaning | Strip whitespace, lowercase categoricals |
-| Fix inconsistencies | tandardize capitalization, fix typos, unify category names |
-| Feature encoding | Label / one-hot encoding where applicable |
+| Fix inconsistencies | standardize capitalization, fix typos, unify category names |
 | Missing values | Drop / impute based on column type and % missing |
 | Type conversion | Fix dtypes: prices → float, dates → datetime, etc. |
 | Export | Save to clean_airbnb_data.csv |
